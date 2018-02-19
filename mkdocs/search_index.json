@@ -2,83 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "In order to get a docker image of Oracle-xe I did the following steps.\ndocker pull alexeiled/docker-oracle-xe-11g\ndocker run -d -p 49160:22 -p 49161:1521 -p 49162:8080 alexeiled/docker-oracle-xe-11g\n\n\nThat was as simple as that for me.\n\n\nhostname: localhost\nport: 1521\nsid: xe\nusername: system\npassword: oracle\n==============================================================\n\n\nIn order to connect from a client tool I used QueryLight which also worked seemlessly.\n\n\nReference:\nhttp://tuhrig.de/3-ways-of-installing-oracle-xe-11g-on-ubuntu/",
             "title": "Home"
         },
         {
-            "location": "/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to MkDocs"
-        },
-        {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
-        },
-        {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
-        },
-        {
-            "location": "/about/",
-            "text": "Iam transit rapacibus\n\n\nExitium libratum pignus felix\n\n\nLorem markdownum ut iubet regia, non altae occasus, hospes nato mihi iter,\nnitidae cursu. Tenebat Tarpeias \nsecuribus sumit\n, aureus venturaque, tamen\n\nTethyn\n fama praetincta nescia.\n\n\ntrackbackUddi.irq = fpuGamma * fragmentationTokenFlash *\n        matrix_adware_computing;\nif (85 + hsfSyntaxUnc - 4) {\n    powerpoint_saas = -4;\n    post_forum(inboxImpression + webMalwareGraphic, parallelDefault);\n    cpc_captcha(bootImportSnow, -1);\n}\nvar golden = sku_ssid_sequence - stack;\nfragmentationMeta += 4;\nit_big -= gigaflops_core.thread(-2, vista, teraflops);\n\n\n\nIllis qui dixit placet meo\n\n\nSaevit cervix nervo\n tundunt incurva protinus \nsenilibus currant\n Dianae, dea\nsi quae spoliavit herbas tinguat. Patres posse illis haesit candidioribus\niterque obstat pectora et aliter \nflorentia flores\n nam.\n\n\nif (kbpsSsdClean) {\n    x = ipFormatDimm + bezel_captcha;\n} else {\n    e_virus = cps_play_us(aspBing);\n}\nchipset_hexadecimal_query += memory_method_ip;\nif (bitrateFlat(it_format_irq, interfaceHibernateFile, ipadImpact)) {\n    cyberbullyingDonationwareOffice(apple_font);\n}\nvar computerDma = mac_daw + wired;\n\n\n\nNubibus sine sonat Asiae sublimis in inpune\n\n\nCui tecum apta aquis celebratior amissa meritis confessam caelum meruisse\nquisquis feroces ut gaudet ausis Latoius tantummodo cervice. Aetatis placidos\nclamabat natum sceleratus matrona dolet; deos noctem dulcedine naides nec etsi\ntu nocendo superabat \nprofatur\n! Cum opta aera movet carpunt adulter; ibi\n\nparentum\n inde carnibus fuit.\n\n\nEt et obliquos ecquem posterior cervis oscula\n\n\nExpellere successus mihi? Stipite laniaverat timori. Alta pervia, laevum pariter\nlabefactaque causas sperne metuam. Reliquit decorata auras deiecerat?\n\n\n\n\nPer mi supremo absistit\n\n\nCaesareos vertice traxisse vertuntur insecti\n\n\nSemilacerque medio\n\n\nTibi per indicat naris nullus\n\n\n\n\nArdebat inmitibus guttur messibus vobis. Lunae forma tepescunt quamquam adactus\nhumo \nhoc\n vias confluat Argos ferocia flamma pollice\n\nstridunt\n!",
-            "title": "About"
-        },
-        {
-            "location": "/about/#iam-transit-rapacibus",
-            "text": "",
-            "title": "Iam transit rapacibus"
-        },
-        {
-            "location": "/about/#exitium-libratum-pignus-felix",
-            "text": "Lorem markdownum ut iubet regia, non altae occasus, hospes nato mihi iter,\nnitidae cursu. Tenebat Tarpeias  securibus sumit , aureus venturaque, tamen Tethyn  fama praetincta nescia.  trackbackUddi.irq = fpuGamma * fragmentationTokenFlash *\n        matrix_adware_computing;\nif (85 + hsfSyntaxUnc - 4) {\n    powerpoint_saas = -4;\n    post_forum(inboxImpression + webMalwareGraphic, parallelDefault);\n    cpc_captcha(bootImportSnow, -1);\n}\nvar golden = sku_ssid_sequence - stack;\nfragmentationMeta += 4;\nit_big -= gigaflops_core.thread(-2, vista, teraflops);",
-            "title": "Exitium libratum pignus felix"
-        },
-        {
-            "location": "/about/#illis-qui-dixit-placet-meo",
-            "text": "Saevit cervix nervo  tundunt incurva protinus  senilibus currant  Dianae, dea\nsi quae spoliavit herbas tinguat. Patres posse illis haesit candidioribus\niterque obstat pectora et aliter  florentia flores  nam.  if (kbpsSsdClean) {\n    x = ipFormatDimm + bezel_captcha;\n} else {\n    e_virus = cps_play_us(aspBing);\n}\nchipset_hexadecimal_query += memory_method_ip;\nif (bitrateFlat(it_format_irq, interfaceHibernateFile, ipadImpact)) {\n    cyberbullyingDonationwareOffice(apple_font);\n}\nvar computerDma = mac_daw + wired;",
-            "title": "Illis qui dixit placet meo"
-        },
-        {
-            "location": "/about/#nubibus-sine-sonat-asiae-sublimis-in-inpune",
-            "text": "Cui tecum apta aquis celebratior amissa meritis confessam caelum meruisse\nquisquis feroces ut gaudet ausis Latoius tantummodo cervice. Aetatis placidos\nclamabat natum sceleratus matrona dolet; deos noctem dulcedine naides nec etsi\ntu nocendo superabat  profatur ! Cum opta aera movet carpunt adulter; ibi parentum  inde carnibus fuit.",
-            "title": "Nubibus sine sonat Asiae sublimis in inpune"
-        },
-        {
-            "location": "/about/#et-et-obliquos-ecquem-posterior-cervis-oscula",
-            "text": "Expellere successus mihi? Stipite laniaverat timori. Alta pervia, laevum pariter\nlabefactaque causas sperne metuam. Reliquit decorata auras deiecerat?   Per mi supremo absistit  Caesareos vertice traxisse vertuntur insecti  Semilacerque medio  Tibi per indicat naris nullus   Ardebat inmitibus guttur messibus vobis. Lunae forma tepescunt quamquam adactus\nhumo  hoc  vias confluat Argos ferocia flamma pollice stridunt !",
-            "title": "Et et obliquos ecquem posterior cervis oscula"
-        },
-        {
-            "location": "/running/",
-            "text": "Tamen Agenorides auras senis at urbe et\n\n\nPer corpore cautus subito\n\n\nLorem markdownum ipse praeceps velis \nconsumptaque qui\n femineo hebes cum\numbraeque, belua Iove culpae! Facibus sedit repugnat: imagine quid haemoniae\nvocat, miserum avidusque membra tendentem aestuat. Amet terra!\n\n\nErat induroque caespes utere\n\n\nAmnes fuge ossibus sensit, ille, e Dicta sanguine facundia; de orsa et remige.\nRapta tantum \nvocalibus barbaque Pheneon\n agresti visa, non temptaretque quod,\nira me, quid nostra; \ncum\n? Este colorem: regia quid Cereremque, Procne et\nrector subito novus; nunc.\n\n\ndns.saasJsonNamespace += xml(media);\nleaf_client_ios(imToolbarIso +\n        design_character.oop_address_error.rfidMacintoshAix(scraping));\ndown_prebinding.domainToslink.nvramSpyware(carrierPdf +\n        gigaflops_output_touchscreen(olap, cardTracerouteAdc,\n        intellectualKvm));\nsoftware_san_jfs = server_crt_risc(uml_localhost_gigaflops(plain_dot, ip -\n        -1), 2);\nip = modemQuery;\n\n\n\nOs et vero\n\n\nRemis novi erat quas sum sinuataque variatus minus inamoenaque ademi. Ut errat\nAcrisius?\n\n\nSilva eras inani homines quaecumque huius scinditque\n\n\nVale ut Diana ut Alcyone ignorant \nstetit retinacula\n illa arboris devorat\nsupplex Tyrrhenus patrium. Madefactam multa. Petentes voxque si et urbem generis\net laetor, dubito mihi Veneris hos Laurens inter, loquax.\n\n\nfilenameCifsSimm = 4;\nif (rfid) {\n    yobibyte(dvd, matrixVolumeStorage);\n    sampleRemote.startTtl(67, fifo + fsbPcmcia, ethernet_property);\n    margin.wordartFirmware += 5 - opticalVirtualPiconet;\n} else {\n    googleSsd.vpi_architecture_dvi = qbe_encoding_format(4, leaf_alert);\n    grayscale = 40;\n}\nif (scanLoad != 2) {\n    artificial_token -= nullDock - uncLed + json - subnet_disk_restore;\n} else {\n    install_cell = copyright_requirements_ipx + -1;\n}\n\n\n\nSuam rebus. Vel abire sedebat triste miremur inmotos dixerat sequentes erimus:\nsacra luce primaque? Polyphemon Siculae, oscula nec sepulti plebs manu \nolim\nillo tuas\n flumina. Ita neque \npignora fata\n. Alii tamen ve mihi\n\ndeae\n versuta nemus, nisi cono fuso laesae pallor non.",
-            "title": "Running"
-        },
-        {
-            "location": "/running/#tamen-agenorides-auras-senis-at-urbe-et",
-            "text": "",
-            "title": "Tamen Agenorides auras senis at urbe et"
-        },
-        {
-            "location": "/running/#per-corpore-cautus-subito",
-            "text": "Lorem markdownum ipse praeceps velis  consumptaque qui  femineo hebes cum\numbraeque, belua Iove culpae! Facibus sedit repugnat: imagine quid haemoniae\nvocat, miserum avidusque membra tendentem aestuat. Amet terra!",
-            "title": "Per corpore cautus subito"
-        },
-        {
-            "location": "/running/#erat-induroque-caespes-utere",
-            "text": "Amnes fuge ossibus sensit, ille, e Dicta sanguine facundia; de orsa et remige.\nRapta tantum  vocalibus barbaque Pheneon  agresti visa, non temptaretque quod,\nira me, quid nostra;  cum ? Este colorem: regia quid Cereremque, Procne et\nrector subito novus; nunc.  dns.saasJsonNamespace += xml(media);\nleaf_client_ios(imToolbarIso +\n        design_character.oop_address_error.rfidMacintoshAix(scraping));\ndown_prebinding.domainToslink.nvramSpyware(carrierPdf +\n        gigaflops_output_touchscreen(olap, cardTracerouteAdc,\n        intellectualKvm));\nsoftware_san_jfs = server_crt_risc(uml_localhost_gigaflops(plain_dot, ip -\n        -1), 2);\nip = modemQuery;",
-            "title": "Erat induroque caespes utere"
-        },
-        {
-            "location": "/running/#os-et-vero",
-            "text": "Remis novi erat quas sum sinuataque variatus minus inamoenaque ademi. Ut errat\nAcrisius?",
-            "title": "Os et vero"
-        },
-        {
-            "location": "/running/#silva-eras-inani-homines-quaecumque-huius-scinditque",
-            "text": "Vale ut Diana ut Alcyone ignorant  stetit retinacula  illa arboris devorat\nsupplex Tyrrhenus patrium. Madefactam multa. Petentes voxque si et urbem generis\net laetor, dubito mihi Veneris hos Laurens inter, loquax.  filenameCifsSimm = 4;\nif (rfid) {\n    yobibyte(dvd, matrixVolumeStorage);\n    sampleRemote.startTtl(67, fifo + fsbPcmcia, ethernet_property);\n    margin.wordartFirmware += 5 - opticalVirtualPiconet;\n} else {\n    googleSsd.vpi_architecture_dvi = qbe_encoding_format(4, leaf_alert);\n    grayscale = 40;\n}\nif (scanLoad != 2) {\n    artificial_token -= nullDock - uncLed + json - subnet_disk_restore;\n} else {\n    install_cell = copyright_requirements_ipx + -1;\n}  Suam rebus. Vel abire sedebat triste miremur inmotos dixerat sequentes erimus:\nsacra luce primaque? Polyphemon Siculae, oscula nec sepulti plebs manu  olim\nillo tuas  flumina. Ita neque  pignora fata . Alii tamen ve mihi deae  versuta nemus, nisi cono fuso laesae pallor non.",
-            "title": "Silva eras inani homines quaecumque huius scinditque"
+            "location": "/#that-was-as-simple-as-that-for-me",
+            "text": "hostname: localhost\nport: 1521\nsid: xe\nusername: system\npassword: oracle\n==============================================================  In order to connect from a client tool I used QueryLight which also worked seemlessly.  Reference:\nhttp://tuhrig.de/3-ways-of-installing-oracle-xe-11g-on-ubuntu/",
+            "title": "That was as simple as that for me."
         }
     ]
 }
