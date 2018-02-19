@@ -2,13 +2,13 @@
     "docs": [
         {
             "location": "/",
-            "text": "In order to get a docker image of Oracle-xe I did the following steps.\ndocker pull alexeiled/docker-oracle-xe-11g\ndocker run -d -p 49160:22 -p 49161:1521 -p 49162:8080 alexeiled/docker-oracle-xe-11g\n\n\nThat was as simple as that for me.\n\n\nhostname: localhost\nport: 1521\nsid: xe\nusername: system\npassword: oracle\n==============================================================\n\n\nIn order to connect from a client tool I used QueryLight which also worked seemlessly.\n\n\nReference:\nhttp://tuhrig.de/3-ways-of-installing-oracle-xe-11g-on-ubuntu/",
+            "text": "In order to get a docker image of Oracle-xe I did the following steps.\ndocker pull alexeiled/docker-oracle-xe-11g\ndocker run -d -p 49160:22 -p 49161:1521 -p 49162:8080 alexeiled/docker-oracle-xe-11g\n\n\nConnection Details\n\n\nhostname: localhost\nport: 1521\nsid: xe\nusername: system\npassword: oracle\n==============================================================\n\n\nIn order to connect from a client tool I used QueryLight which also worked seemlessly.\n\n\nReference:\nhttp://tuhrig.de/3-ways-of-installing-oracle-xe-11g-on-ubuntu/",
             "title": "Home"
         },
         {
-            "location": "/#that-was-as-simple-as-that-for-me",
+            "location": "/#connection-details",
             "text": "hostname: localhost\nport: 1521\nsid: xe\nusername: system\npassword: oracle\n==============================================================  In order to connect from a client tool I used QueryLight which also worked seemlessly.  Reference:\nhttp://tuhrig.de/3-ways-of-installing-oracle-xe-11g-on-ubuntu/",
-            "title": "That was as simple as that for me."
+            "title": "Connection Details"
         }
     ]
 }
