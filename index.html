@@ -60,26 +60,30 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#connection-details">Connection Details</a></li>
-        
-    
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<p>In order to get a docker image of Oracle-xe I did the following steps.
-docker pull alexeiled/docker-oracle-xe-11g
-docker run -d -p 49160:22 -p 49161:1521 -p 49162:8080 alexeiled/docker-oracle-xe-11g</p>
-<h1 id="connection-details">Connection Details</h1>
-<p>hostname: localhost
+<p>In order to get a docker image of Oracle-xe I did the following steps.</p>
+<pre><code class="py">docker pull alexeiled/docker-oracle-xe-11g
+docker run -d -p 49160:22 -p 49161:1521 -p 49162:8080 alexeiled/docker-oracle-xe-11g
+</code></pre>
+
+<p>Connection Details</p>
+<pre><code class="py">==============================================================
+hostname: localhost
 port: 1521
 sid: xe
 username: system
 password: oracle
-==============================================================</p>
-<p>In order to connect from a client tool I used QueryLight which also worked seemlessly.</p>
-<p>Reference:
-http://tuhrig.de/3-ways-of-installing-oracle-xe-11g-on-ubuntu/</p></div>
+==============================================================
+</code></pre>
+
+<pre><code>In order to connect from a client tool I used QueryLight which also worked seemlessly.
+
+Reference:
+http://tuhrig.de/3-ways-of-installing-oracle-xe-11g-on-ubuntu/
+</code></pre></div>
             
         </div>
 
@@ -126,5 +130,5 @@ http://tuhrig.de/3-ways-of-installing-oracle-xe-11g-on-ubuntu/</p></div>
 
 <!--
 MkDocs version : 0.15.3
-Build Date UTC : 2018-02-19 18:40:43
+Build Date UTC : 2018-02-19 18:53:37
 -->
